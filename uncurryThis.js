@@ -7,3 +7,5 @@ Function.prototype.uncurryThis = function() {
 // use case:
 //    const toUpperCase = String.prototype.toUpperCase.uncurryThis();
 //    const upperCaseStrings = ['some', 'strings'].map(toUpperCase); // => ['SOME', 'STRINGS']
+
+// from this blog post: http://2ality.com/2011/11/uncurrying-this.html
