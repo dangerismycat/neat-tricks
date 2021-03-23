@@ -1,2 +1,5 @@
 Find component imports in codebase: (here, Tabs from 'gestalt')
 /import\s\{[^\}]*Tabs[^\}]*\}\sfrom\s'gestalt'/
+
+Find components with a given prop:
+/<Component(\s|\n)[^>]*?property/
