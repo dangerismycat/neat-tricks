@@ -1,0 +1,2 @@
+Find component imports in codebase: (here, Tabs from 'gestalt')
+/import\s\{[^\}]*Tabs[^\}]*\}\sfrom\s'gestalt'/
